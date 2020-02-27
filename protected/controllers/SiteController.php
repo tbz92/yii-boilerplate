@@ -6,4 +6,9 @@ class SiteController extends Controller
     {
         $this->render('index');
     }
+
+    public function actionList()
+    {
+        $this->render('list');
+    }
 }
