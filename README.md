@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # yii-starter-pack
 This is a starter pack for those looking to build awesome applications with yii framework v1.1<br>
 #### <b>PS:</b> Support for Yii v1.1 has ended, you can still build applications using yii v1.1 but for more support and updated contents, try building apps with yii v2.0
@@ -12,3 +13,6 @@ This is a starter pack for those looking to build awesome applications with yii 
 6. Make sure that your local server (WAMP/LAMP) is started before trying the URL. <hr>
 
 for any enquiry, feel free to contact me via mail @ ibezimchike@gmail.com
+=======
+# yii-boilerplate
+>>>>>>> ec4b0a4759911ccaafca8338974a342ee02c824f
