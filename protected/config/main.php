@@ -52,13 +52,7 @@ return array(
         ),*/
         // uncomment the following to use a MySQL database
 
-        'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=yii-boilerplate',
-            'emulatePrepare' => true,
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
-        ),
+        'db' => require(__DIR__ . '/db.php'),
 
         'errorHandler' => array(
             // use 'site/error' action to display errors
