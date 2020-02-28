@@ -9,3 +9,11 @@ git clone https://github.com/tbz92/laravel-test.git
 ````
 I've used directory name YiiRoot. Please update as per you directory.
 ````
+
+4- Create/Update/List is working using server side functionality.
+
+5- Future enhancements
+````
+1- File Upload
+2- Delete using ajax.
+````
