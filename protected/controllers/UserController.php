@@ -44,7 +44,12 @@ class UserController extends Controller
 
     public function actionDelete($id)
     {
-        $model = $this->loadModel($id);
+        if ($model = $this->loadModel($id)) {
+
+            if ($model->delete()) {
+                $this->redirect(array('user/list'));
+            }
+        }
     }
 
     public function actionList()
