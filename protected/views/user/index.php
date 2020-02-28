@@ -1,5 +1,5 @@
 <?php
-/* @var $this SiteController */
+/* @var $this UserController */
 
 ?>
 <div class="container">
