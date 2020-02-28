@@ -52,6 +52,7 @@ class User extends CActiveRecord
             array('name, email', 'required'),
             array('name, email', 'length', 'max' => 50),
             array('email', 'email'),
+            array('address', 'safe'),
             array('email', 'unique', 'message' => 'This email address is unavailable.'),
             array('id, name, email, address', 'safe', 'on' => 'search'),
         );
