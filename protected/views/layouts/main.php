@@ -36,6 +36,13 @@
         )); ?><!-- breadcrumbs -->
     <?php endif ?>
 
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/create') ?>>Create
+                User</a></li>
+        <li class="nav-item"><a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/list') ?>>List
+                User</a></li>
+    </ul>
+
     <?php echo $content; ?>
 
     <div class="clear"></div>

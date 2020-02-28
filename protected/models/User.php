@@ -13,8 +13,10 @@
  * @property string $updated_by
  * @property string $updated_at
  */
-class User extends CFormModel
+class User extends CActiveRecord
 {
+    public $file;
+
     public function __construct($scenario = 'insert')
     {
         parent::__construct($scenario);
@@ -83,7 +85,8 @@ class User extends CFormModel
             'id' => 'ID',
             'name' => 'Name',
             'email' => 'Email',
-            'password' => 'Password',
+            'address' => 'Address',
+            'file' => 'Upload File',
             'created_by' => 'Created By',
             'created_at' => 'Created At',
             'updated_by' => 'Updated By',
@@ -114,6 +117,7 @@ class User extends CFormModel
 
     protected function beforeSave()
     {
+        $this->created_by = 'Login user name';
         return parent::beforeSave();
     }
 
