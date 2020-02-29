@@ -22,4 +22,4 @@ I've used directory name YiiRoot. Please update as per you directory.
 http://localhost/yii-boilerplate/index.php?r=user/list
 ````
 
-7- Sql file has also been added if you want to import database directly.
+7- Sql file 'yii-boilerplate.sql' has also been added if you want to import database directly.
