@@ -14,8 +14,7 @@ I've used directory name YiiRoot. Please update as per you directory.
 
 5- Future enhancements
 ````
-1- File Upload
-2- Delete using ajax.
+1- Delete using ajax.
 ````
 
 6- Entry point
