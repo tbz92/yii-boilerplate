@@ -17,3 +17,8 @@ I've used directory name YiiRoot. Please update as per you directory.
 1- File Upload
 2- Delete using ajax.
 ````
+
+6- Entry point
+````
+http://localhost/yii-boilerplate/index.php?r=user/list
+````

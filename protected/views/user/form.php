@@ -7,17 +7,19 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
     'type' => 'horizontal',
 ));
 ?>
-<div class="container">
+<div class="container col-md-6">
     <?php
     echo $form->errorSummary($model);
     ?>
     <h4>Add User</h4>
 
     <?php
-    echo $form->textFieldRow($model, 'name', ['class' => 'form-control', 'placeholder' => 'ABC XYZ']);
-    echo $form->textFieldRow($model, 'email', ['class' => 'form-control', 'placeholder' => 'name@example.com']);
-    echo $form->textFieldRow($model, 'address', ['class' => 'form-control', 'placeholder' => 'ABC Hill Road']);
-    echo $form->fileFieldRow($model, 'file', ['class' => 'form-control' ]);
+    echo $form->textFieldRow($model, 'first_name', ['class' => 'form-control']);
+    echo $form->textFieldRow($model, 'last_name', ['class' => 'form-control']);
+    echo $form->textFieldRow($model, 'email', ['class' => 'form-control']);
+    echo $form->textFieldRow($model, 'marks', ['class' => 'form-control']);
+    echo $form->checkBoxRow($model, 'status');
+    echo $form->fileFieldRow($model, 'file', ['class' => 'form-control']);
 
     $this->widget('bootstrap.widgets.TbButton', array(
         'buttonType' => 'submit',

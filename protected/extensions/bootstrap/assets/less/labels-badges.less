@@ -1,0 +1,61 @@
+.label,
+.badge {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: @baseFontSize * .846;
+  font-weight: bold;
+  line-height: 14px;
+  color: @white;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  background-color: @grayLight;
+}
+
+.label {
+  .border-radius(3px);
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  .border-radius(9px);
+}
+
+
+a {
+  &.label:hover,
+  &.badge:hover {
+    color: @white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+
+.label,
+.badge {
+  &-important         { background-color: @errorText; }
+  &-important[href]   { background-color: darken(@errorText, 10%); }
+  &-warning           { background-color: @orange; }
+  &-warning[href]     { background-color: darken(@orange, 10%); }
+  &-success           { background-color: @successText; }
+  &-success[href]     { background-color: darken(@successText, 10%); }
+  &-info              { background-color: @infoText; }
+  &-info[href]        { background-color: darken(@infoText, 10%); }
+  &-inverse           { background-color: @grayDark; }
+  &-inverse[href]     { background-color: darken(@grayDark, 10%); }
+}
+
+.btn {
+  .label,
+  .badge {
+    position: relative;
+    top: -1px;
+  }
+}
+.btn-mini {
+  .label,
+  .badge {
+    top: 0;
+  }
+}

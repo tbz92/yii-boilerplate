@@ -5,9 +5,11 @@
  *
  * The followings are the available columns in table 'user':
  * @property string $id
- * @property string $name
+ * @property string $first_name
+ * @property string $last_name
  * @property string $email
- * @property string $address
+ * @property int $marks
+ * @property boolean $status
  * @property string $created_by
  * @property string $created_at
  * @property string $updated_by
@@ -49,12 +51,13 @@ class User extends CActiveRecord
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('name, email', 'required'),
-            array('name, email', 'length', 'max' => 50),
+            array('first_name, last_name, email', 'required'),
+            array('first_name, last_name, email', 'length', 'max' => 50),
             array('email', 'email'),
-            array('address', 'safe'),
+            array('marks', 'numerical', 'integerOnly' => true),
+            array('status', 'boolean'),
             array('email', 'unique', 'message' => 'This email address is unavailable.'),
-            array('id, name, email, address', 'safe', 'on' => 'search'),
+            array('id, first_name, last_name, email, marks, status', 'safe', 'on' => 'search'),
         );
     }
 
@@ -84,9 +87,11 @@ class User extends CActiveRecord
     {
         return array(
             'id' => 'ID',
-            'name' => 'Name',
+            'first_name' => 'First Name',
+            'last_name' => 'Last Name',
             'email' => 'Email',
-            'address' => 'Address',
+            'marks' => 'Marks',
+            'status' => 'Status',
             'file' => 'Upload File',
             'created_by' => 'Created By',
             'created_at' => 'Created At',
@@ -100,9 +105,11 @@ class User extends CActiveRecord
         $criteria = new CDbCriteria;
 
         $criteria->compare('id', $this->id);
-        $criteria->compare('name', $this->name, true);
+        $criteria->compare('first_name', $this->first_name, true);
+        $criteria->compare('last_name', $this->last_name, true);
         $criteria->compare('email', $this->email);
-        $criteria->compare('address', $this->address);
+        $criteria->compare('marks', $this->marks);
+        $criteria->compare('status', $this->status);
         $criteria->compare('updated_by', $this->updated_by, true);
         $criteria->compare('updated_at', $this->updated_at, true);
 
