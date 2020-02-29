@@ -14,6 +14,7 @@ class UserController extends Controller
 
         if (Yii::app()->request->isPostRequest) {
             $model->attributes = Yii::app()->request->getPost('User');
+            $model->file = CUploadedFile::getInstance($model, 'file');
 
             if ($model->save()) {
                 $this->redirect(array('user/list'));
@@ -31,6 +32,7 @@ class UserController extends Controller
 
         if (Yii::app()->request->isPostRequest) {
             $model->attributes = Yii::app()->request->getPost('User');
+            $model->file = CUploadedFile::getInstance($model, 'file');
 
             if ($model->save()) {
                 $this->redirect(array('user/list'));
@@ -52,10 +54,10 @@ class UserController extends Controller
         }
     }
 
-    public function actionList()
+    public function actionList($status = 1)
     {
         $this->render('list', [
-            'users' => User::model()->findAll()
+            'users' => User::model()->findAll("status = $status")
         ]);
     }
 

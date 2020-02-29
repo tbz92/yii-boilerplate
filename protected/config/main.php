@@ -4,6 +4,7 @@
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
+Yii::setPathOfAlias('images', dirname(__FILE__) . '/../../images');
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(

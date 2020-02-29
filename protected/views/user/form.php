@@ -2,9 +2,10 @@
 /* @var $this UserController */
 /* @var $form TbActiveForm */
 $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
-    'id' => 'speaker-organization-form',
+    'id' => 'user-details-form',
     'enableAjaxValidation' => false,
     'type' => 'horizontal',
+    'htmlOptions' => array('enctype' => 'multipart/form-data', 'autocomplete' => 'off'),
 ));
 ?>
 <div class="container col-md-6">

@@ -37,10 +37,15 @@
     <?php endif ?>
 
     <ul class="nav">
-        <li class="nav-item"><a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/create') ?>>Create
-                User</a></li>
-        <li class="nav-item"><a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/list') ?>>List
-                User</a></li>
+        <li class="nav-item">
+            <a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/create') ?>>Create User</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/list') ?>>List Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href=<?php echo Yii::app()->createUrl('user/list/status/0') ?>>List In-active User</a>
+        </li>
     </ul>
 
     <?php echo $content; ?>

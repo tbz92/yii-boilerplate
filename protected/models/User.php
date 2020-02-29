@@ -56,6 +56,7 @@ class User extends CActiveRecord
             array('email', 'email'),
             array('marks', 'numerical', 'integerOnly' => true),
             array('status', 'boolean'),
+            array('file', 'file', 'allowEmpty' => true, 'types' => 'jpg, jpeg, png'),
             array('email', 'unique', 'message' => 'This email address is unavailable.'),
             array('id, first_name, last_name, email, marks, status', 'safe', 'on' => 'search'),
         );
@@ -132,5 +133,17 @@ class User extends CActiveRecord
     protected function afterSave()
     {
         parent::afterSave();
+
+        if (!empty($this->file)) {
+            $this->file = CUploadedFile::getInstance($this, 'file');
+            $this->file->saveAs($this->getFileNameAndBaseUrl());
+        }
+    }
+
+    public function getFileNameAndBaseUrl()
+    {
+        return YiiBase::getPathOfAlias('webroot.images.users')
+            . DIRECTORY_SEPARATOR
+            . $this->email . '.' . $this->file->extensionName;
     }
 }
