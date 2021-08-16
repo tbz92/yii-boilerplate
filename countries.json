@@ -1,0 +1,990 @@
+[
+  {
+    "text": "Suomi",
+    "value": "fin"
+  },
+  {
+    "text": "Afganistan",
+    "value": "afg"
+  },
+  {
+    "text": "Ahvenanmaa",
+    "value": "ala"
+  },
+  {
+    "text": "Alankomaat",
+    "value": "nld"
+  },
+  {
+    "text": "Albania",
+    "value": "alb"
+  },
+  {
+    "text": "Algeria",
+    "value": "dza"
+  },
+  {
+    "text": "Amerikan Samoa",
+    "value": "asm"
+  },
+  {
+    "text": "Andorra",
+    "value": "and"
+  },
+  {
+    "text": "Angola",
+    "value": "ago"
+  },
+  {
+    "text": "Anguilla",
+    "value": "aia"
+  },
+  {
+    "text": "Antarktis",
+    "value": "ata"
+  },
+  {
+    "text": "Antigua ja Barbuda",
+    "value": "atg"
+  },
+  {
+    "text": "Arabiemiirikunnat",
+    "value": "are"
+  },
+  {
+    "text": "Argentiina",
+    "value": "arg"
+  },
+  {
+    "text": "Armenia",
+    "value": "arm"
+  },
+  {
+    "text": "Aruba",
+    "value": "abw"
+  },
+  {
+    "text": "Australia",
+    "value": "aus"
+  },
+  {
+    "text": "Azerbaid\u017ean",
+    "value": "aze"
+  },
+  {
+    "text": "Bahama",
+    "value": "bhs"
+  },
+  {
+    "text": "Bahrain",
+    "value": "bhr"
+  },
+  {
+    "text": "Bangladesh",
+    "value": "bgd"
+  },
+  {
+    "text": "Barbados",
+    "value": "brb"
+  },
+  {
+    "text": "Belgia",
+    "value": "bel"
+  },
+  {
+    "text": "Belize",
+    "value": "blz"
+  },
+  {
+    "text": "Benin",
+    "value": "ben"
+  },
+  {
+    "text": "Bermuda",
+    "value": "bmu"
+  },
+  {
+    "text": "Bhutan",
+    "value": "btn"
+  },
+  {
+    "text": "Bolivia",
+    "value": "bol"
+  },
+  {
+    "text": "Bosnia ja Hertsegovina",
+    "value": "bih"
+  },
+  {
+    "text": "Botswana",
+    "value": "bwa"
+  },
+  {
+    "text": "Brasilia",
+    "value": "bra"
+  },
+  {
+    "text": "Brittil\u00e4inen Intian valtameren alue",
+    "value": "iot"
+  },
+  {
+    "text": "Brittil\u00e4iset Neitsytsaaret",
+    "value": "vgb"
+  },
+  {
+    "text": "Brunei",
+    "value": "brn"
+  },
+  {
+    "text": "Bulgaria",
+    "value": "bgr"
+  },
+  {
+    "text": "Burkina Faso",
+    "value": "bfa"
+  },
+  {
+    "text": "Burundi",
+    "value": "bdi"
+  },
+  {
+    "text": "Caymansaaret",
+    "value": "cym"
+  },
+  {
+    "text": "Chile",
+    "value": "chl"
+  },
+  {
+    "text": "Cookinsaaret",
+    "value": "cok"
+  },
+  {
+    "text": "Costa Rica",
+    "value": "cri"
+  },
+  {
+    "text": "Cura\u00e7ao",
+    "value": "cuw"
+  },
+  {
+    "text": "Djibouti",
+    "value": "dji"
+  },
+  {
+    "text": "Dominica",
+    "value": "dma"
+  },
+  {
+    "text": "Dominikaaninen tasavalta",
+    "value": "dom"
+  },
+  {
+    "text": "Ecuador",
+    "value": "ecu"
+  },
+  {
+    "text": "Egypti",
+    "value": "egy"
+  },
+  {
+    "text": "El Salvador",
+    "value": "slv"
+  },
+  {
+    "text": "Eritrea",
+    "value": "eri"
+  },
+  {
+    "text": "Espanja",
+    "value": "esp"
+  },
+  {
+    "text": "Etel\u00e4-Afrikka",
+    "value": "zaf"
+  },
+  {
+    "text": "Etel\u00e4-Georgia ja Etel\u00e4iset Sandwichsaaret",
+    "value": "sgs"
+  },
+  {
+    "text": "Etel\u00e4-Korea",
+    "value": "kor"
+  },
+  {
+    "text": "Etel\u00e4-Sudan",
+    "value": "ssd"
+  },
+  {
+    "text": "Etiopia",
+    "value": "eth"
+  },
+  {
+    "text": "F\u00e4rsaaret",
+    "value": "fro"
+  },
+  {
+    "text": "Falklandinsaaret",
+    "value": "flk"
+  },
+  {
+    "text": "Fid\u017ei",
+    "value": "fji"
+  },
+  {
+    "text": "Filippiinit",
+    "value": "phl"
+  },
+  {
+    "text": "Gabon",
+    "value": "gab"
+  },
+  {
+    "text": "Gambia",
+    "value": "gmb"
+  },
+  {
+    "text": "Georgia",
+    "value": "geo"
+  },
+  {
+    "text": "Ghana",
+    "value": "gha"
+  },
+  {
+    "text": "Gibraltar",
+    "value": "gib"
+  },
+  {
+    "text": "Gr\u00f6nlanti",
+    "value": "grl"
+  },
+  {
+    "text": "Grenada",
+    "value": "grd"
+  },
+  {
+    "text": "Guadeloupe",
+    "value": "glp"
+  },
+  {
+    "text": "Guam",
+    "value": "gum"
+  },
+  {
+    "text": "Guatemala",
+    "value": "gtm"
+  },
+  {
+    "text": "Guernsey",
+    "value": "ggy"
+  },
+  {
+    "text": "Guinea",
+    "value": "gin"
+  },
+  {
+    "text": "Guinea-Bissau",
+    "value": "gnb"
+  },
+  {
+    "text": "Guyana",
+    "value": "guy"
+  },
+  {
+    "text": "Haiti",
+    "value": "hti"
+  },
+  {
+    "text": "Honduras",
+    "value": "hnd"
+  },
+  {
+    "text": "Hongkong \u2013 Kiinan e.h.a.",
+    "value": "hkg"
+  },
+  {
+    "text": "Huippuvuoret ja Jan Mayen",
+    "value": "sjm"
+  },
+  {
+    "text": "Indonesia",
+    "value": "idn"
+  },
+  {
+    "text": "Intia",
+    "value": "ind"
+  },
+  {
+    "text": "Irak",
+    "value": "irq"
+  },
+  {
+    "text": "Iran",
+    "value": "irn"
+  },
+  {
+    "text": "Irlanti",
+    "value": "irl"
+  },
+  {
+    "text": "Islanti",
+    "value": "isl"
+  },
+  {
+    "text": "Iso-Britannia",
+    "value": "gbr"
+  },
+  {
+    "text": "Israel",
+    "value": "isr"
+  },
+  {
+    "text": "It\u00e4-Timor",
+    "value": "tls"
+  },
+  {
+    "text": "It\u00e4valta",
+    "value": "aut"
+  },
+  {
+    "text": "Italia",
+    "value": "ita"
+  },
+  {
+    "text": "Jamaika",
+    "value": "jam"
+  },
+  {
+    "text": "Japani",
+    "value": "jpn"
+  },
+  {
+    "text": "Jemen",
+    "value": "yem"
+  },
+  {
+    "text": "Jersey",
+    "value": "jey"
+  },
+  {
+    "text": "Jordania",
+    "value": "jor"
+  },
+  {
+    "text": "Joulusaari",
+    "value": "cxr"
+  },
+  {
+    "text": "Kambod\u017ea",
+    "value": "khm"
+  },
+  {
+    "text": "Kamerun",
+    "value": "cmr"
+  },
+  {
+    "text": "Kanada",
+    "value": "can"
+  },
+  {
+    "text": "Kap Verde",
+    "value": "cpv"
+  },
+  {
+    "text": "Karibian Alankomaat",
+    "value": "bes"
+  },
+  {
+    "text": "Kazakstan",
+    "value": "kaz"
+  },
+  {
+    "text": "Kenia",
+    "value": "ken"
+  },
+  {
+    "text": "Keski-Afrikan tasavalta",
+    "value": "caf"
+  },
+  {
+    "text": "Kiina",
+    "value": "chn"
+  },
+  {
+    "text": "Kirgisia",
+    "value": "kgz"
+  },
+  {
+    "text": "Kiribati",
+    "value": "kir"
+  },
+  {
+    "text": "Kolumbia",
+    "value": "col"
+  },
+  {
+    "text": "Komorit",
+    "value": "com"
+  },
+  {
+    "text": "Kongon demokraattinen tasavalta",
+    "value": "cod"
+  },
+  {
+    "text": "Kongon tasavalta",
+    "value": "cog"
+  },
+  {
+    "text": "Kookossaaret (Keelingsaaret)",
+    "value": "cck"
+  },
+  {
+    "text": "Kreikka",
+    "value": "grc"
+  },
+  {
+    "text": "Kroatia",
+    "value": "hrv"
+  },
+  {
+    "text": "Kuuba",
+    "value": "cub"
+  },
+  {
+    "text": "Kuwait",
+    "value": "kwt"
+  },
+  {
+    "text": "Kypros",
+    "value": "cyp"
+  },
+  {
+    "text": "L\u00e4nsi-Sahara",
+    "value": "esh"
+  },
+  {
+    "text": "Laos",
+    "value": "lao"
+  },
+  {
+    "text": "Latvia",
+    "value": "lva"
+  },
+  {
+    "text": "Lesotho",
+    "value": "lso"
+  },
+  {
+    "text": "Libanon",
+    "value": "lbn"
+  },
+  {
+    "text": "Liberia",
+    "value": "lbr"
+  },
+  {
+    "text": "Libya",
+    "value": "lby"
+  },
+  {
+    "text": "Liechtenstein",
+    "value": "lie"
+  },
+  {
+    "text": "Liettua",
+    "value": "ltu"
+  },
+  {
+    "text": "Luxemburg",
+    "value": "lux"
+  },
+  {
+    "text": "Macao \u2013 Kiinan e.h.a.",
+    "value": "mac"
+  },
+  {
+    "text": "Madagaskar",
+    "value": "mdg"
+  },
+  {
+    "text": "Malawi",
+    "value": "mwi"
+  },
+  {
+    "text": "Malediivit",
+    "value": "mdv"
+  },
+  {
+    "text": "Malesia",
+    "value": "mys"
+  },
+  {
+    "text": "Mali",
+    "value": "mli"
+  },
+  {
+    "text": "Malta",
+    "value": "mlt"
+  },
+  {
+    "text": "Mansaari",
+    "value": "imn"
+  },
+  {
+    "text": "Marokko",
+    "value": "mar"
+  },
+  {
+    "text": "Marshallinsaaret",
+    "value": "mhl"
+  },
+  {
+    "text": "Martinique",
+    "value": "mtq"
+  },
+  {
+    "text": "Mauritania",
+    "value": "mrt"
+  },
+  {
+    "text": "Mauritius",
+    "value": "mus"
+  },
+  {
+    "text": "Mayotte",
+    "value": "myt"
+  },
+  {
+    "text": "Meksiko",
+    "value": "mex"
+  },
+  {
+    "text": "Mikronesian liittovaltio",
+    "value": "fsm"
+  },
+  {
+    "text": "Moldova",
+    "value": "mda"
+  },
+  {
+    "text": "Monaco",
+    "value": "mco"
+  },
+  {
+    "text": "Mongolia",
+    "value": "mng"
+  },
+  {
+    "text": "Montenegro",
+    "value": "mne"
+  },
+  {
+    "text": "Montserrat",
+    "value": "msr"
+  },
+  {
+    "text": "Mosambik",
+    "value": "moz"
+  },
+  {
+    "text": "Myanmar (Burma)",
+    "value": "mmr"
+  },
+  {
+    "text": "Namibia",
+    "value": "nam"
+  },
+  {
+    "text": "Nauru",
+    "value": "nru"
+  },
+  {
+    "text": "Nepal",
+    "value": "npl"
+  },
+  {
+    "text": "Nicaragua",
+    "value": "nic"
+  },
+  {
+    "text": "Niger",
+    "value": "ner"
+  },
+  {
+    "text": "Nigeria",
+    "value": "nga"
+  },
+  {
+    "text": "Niue",
+    "value": "niu"
+  },
+  {
+    "text": "Norfolkinsaari",
+    "value": "nfk"
+  },
+  {
+    "text": "Norja",
+    "value": "nor"
+  },
+  {
+    "text": "Norsunluurannikko",
+    "value": "civ"
+  },
+  {
+    "text": "Oman",
+    "value": "omn"
+  },
+  {
+    "text": "P\u00e4iv\u00e4ntasaajan Guinea",
+    "value": "gnq"
+  },
+  {
+    "text": "Pakistan",
+    "value": "pak"
+  },
+  {
+    "text": "Palau",
+    "value": "plw"
+  },
+  {
+    "text": "Palestiinalaisalueet",
+    "value": "pse"
+  },
+  {
+    "text": "Panama",
+    "value": "pan"
+  },
+  {
+    "text": "Papua-Uusi-Guinea",
+    "value": "png"
+  },
+  {
+    "text": "Paraguay",
+    "value": "pry"
+  },
+  {
+    "text": "Peru",
+    "value": "per"
+  },
+  {
+    "text": "Pitcairn",
+    "value": "pcn"
+  },
+  {
+    "text": "Pohjois-Korea",
+    "value": "prk"
+  },
+  {
+    "text": "Pohjois-Makedonia",
+    "value": "mkd"
+  },
+  {
+    "text": "Pohjois-Mariaanit",
+    "value": "mnp"
+  },
+  {
+    "text": "Portugali",
+    "value": "prt"
+  },
+  {
+    "text": "Puerto Rico",
+    "value": "pri"
+  },
+  {
+    "text": "Puola",
+    "value": "pol"
+  },
+  {
+    "text": "Qatar",
+    "value": "qat"
+  },
+  {
+    "text": "R\u00e9union",
+    "value": "reu"
+  },
+  {
+    "text": "Ranska",
+    "value": "fra"
+  },
+  {
+    "text": "Ranskan Guayana",
+    "value": "guf"
+  },
+  {
+    "text": "Ranskan Polynesia",
+    "value": "pyf"
+  },
+  {
+    "text": "Ranskan etel\u00e4iset alueet",
+    "value": "atf"
+  },
+  {
+    "text": "Romania",
+    "value": "rou"
+  },
+  {
+    "text": "Ruanda",
+    "value": "rwa"
+  },
+  {
+    "text": "Ruotsi",
+    "value": "swe"
+  },
+  {
+    "text": "S\u00e3o Tom\u00e9 ja Pr\u00edncipe",
+    "value": "stp"
+  },
+  {
+    "text": "Saint Helena",
+    "value": "shn"
+  },
+  {
+    "text": "Saint Kitts ja Nevis",
+    "value": "kna"
+  },
+  {
+    "text": "Saint Lucia",
+    "value": "lca"
+  },
+  {
+    "text": "Saint Vincent ja Grenadiinit",
+    "value": "vct"
+  },
+  {
+    "text": "Saint-Barth\u00e9lemy",
+    "value": "blm"
+  },
+  {
+    "text": "Saint-Martin",
+    "value": "maf"
+  },
+  {
+    "text": "Saint-Pierre ja Miquelon",
+    "value": "spm"
+  },
+  {
+    "text": "Saksa",
+    "value": "deu"
+  },
+  {
+    "text": "Salomonsaaret",
+    "value": "slb"
+  },
+  {
+    "text": "Sambia",
+    "value": "zmb"
+  },
+  {
+    "text": "Samoa",
+    "value": "wsm"
+  },
+  {
+    "text": "San Marino",
+    "value": "smr"
+  },
+  {
+    "text": "Saudi-Arabia",
+    "value": "sau"
+  },
+  {
+    "text": "Senegal",
+    "value": "sen"
+  },
+  {
+    "text": "Serbia",
+    "value": "srb"
+  },
+  {
+    "text": "Seychellit",
+    "value": "syc"
+  },
+  {
+    "text": "Sierra Leone",
+    "value": "sle"
+  },
+  {
+    "text": "Singapore",
+    "value": "sgp"
+  },
+  {
+    "text": "Sint Maarten",
+    "value": "sxm"
+  },
+  {
+    "text": "Slovakia",
+    "value": "svk"
+  },
+  {
+    "text": "Slovenia",
+    "value": "svn"
+  },
+  {
+    "text": "Somalia",
+    "value": "som"
+  },
+  {
+    "text": "Sri Lanka",
+    "value": "lka"
+  },
+  {
+    "text": "Sudan",
+    "value": "sdn"
+  },
+  {
+    "text": "Suriname",
+    "value": "sur"
+  },
+  {
+    "text": "Sveitsi",
+    "value": "che"
+  },
+  {
+    "text": "Swazimaa",
+    "value": "swz"
+  },
+  {
+    "text": "Syyria",
+    "value": "syr"
+  },
+  {
+    "text": "T\u0161ad",
+    "value": "tcd"
+  },
+  {
+    "text": "T\u0161ekki",
+    "value": "cze"
+  },
+  {
+    "text": "Tad\u017eikistan",
+    "value": "tjk"
+  },
+  {
+    "text": "Taiwan",
+    "value": "twn"
+  },
+  {
+    "text": "Tansania",
+    "value": "tza"
+  },
+  {
+    "text": "Tanska",
+    "value": "dnk"
+  },
+  {
+    "text": "Thaimaa",
+    "value": "tha"
+  },
+  {
+    "text": "Togo",
+    "value": "tgo"
+  },
+  {
+    "text": "Tokelau",
+    "value": "tkl"
+  },
+  {
+    "text": "Tonga",
+    "value": "ton"
+  },
+  {
+    "text": "Trinidad ja Tobago",
+    "value": "tto"
+  },
+  {
+    "text": "Tunisia",
+    "value": "tun"
+  },
+  {
+    "text": "Turkki",
+    "value": "tur"
+  },
+  {
+    "text": "Turkmenistan",
+    "value": "tkm"
+  },
+  {
+    "text": "Turks- ja Caicossaaret",
+    "value": "tca"
+  },
+  {
+    "text": "Tuvalu",
+    "value": "tuv"
+  },
+  {
+    "text": "Uganda",
+    "value": "uga"
+  },
+  {
+    "text": "Ukraina",
+    "value": "ukr"
+  },
+  {
+    "text": "Unkari",
+    "value": "hun"
+  },
+  {
+    "text": "Uruguay",
+    "value": "ury"
+  },
+  {
+    "text": "Uusi-Kaledonia",
+    "value": "ncl"
+  },
+  {
+    "text": "Uusi-Seelanti",
+    "value": "nzl"
+  },
+  {
+    "text": "Uzbekistan",
+    "value": "uzb"
+  },
+  {
+    "text": "Valko-Ven\u00e4j\u00e4",
+    "value": "blr"
+  },
+  {
+    "text": "Vanuatu",
+    "value": "vut"
+  },
+  {
+    "text": "Vatikaani",
+    "value": "vat"
+  },
+  {
+    "text": "Ven\u00e4j\u00e4",
+    "value": "rus"
+  },
+  {
+    "text": "Venezuela",
+    "value": "ven"
+  },
+  {
+    "text": "Vietnam",
+    "value": "vnm"
+  },
+  {
+    "text": "Viro",
+    "value": "est"
+  },
+  {
+    "text": "Wallis ja Futuna",
+    "value": "wlf"
+  },
+  {
+    "text": "Yhdysvallat",
+    "value": "usa"
+  },
+  {
+    "text": "Yhdysvaltain Neitsytsaaret",
+    "value": "vir"
+  },
+  {
+    "text": "Yhdysvaltain erillissaaret",
+    "value": "umi"
+  },
+  {
+    "text": "Zimbabwe",
+    "value": "zwe"
+  }
+]
